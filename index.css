@@ -3,10 +3,23 @@
 font-size:30px;}
 
 .d5{background: url(i2c6n0iy.png)no-repeat;
-    padding: 35px;
+    padding: 40px;
     background-size:100%;
     background-position:center;
     background-attachment:fixed;
+    margin: 10px;
+}
+#audio{
+
+    padding:2px;
+    margin: 50px 50px;
+    border-radius: 25px;
+margin-left: 340px ;
+}
+#audio:hover {
+    background-color: rgb(241, 85, 12);
+    
+    transform: scale(1.1 );
 }
 #p4{
 }
@@ -28,6 +41,7 @@ font-size:30px;}
     
 
 }
+
 #p1:hover {
     background-color: rgb(241, 85, 12);
     
@@ -56,7 +70,6 @@ font-size:30px;}
 } 
 
 #p3{
-    color:;
     font-size:60px;
     text-decoration:none;
     font-size:1.1em;
@@ -67,7 +80,6 @@ font-size:30px;}
     border: 25px;
     margin-right: 100px ;
     transition:0.5s ease;
-  
 }
 #p3:hover {
     background-color: rgba(131, 241, 127, 0.76);
@@ -154,4 +166,30 @@ p{
     color: brown;
     font-size: 25px ;
     font-weight: 300px;
+}
+@media (
+    max-width:1023px
+){
+    header{
+        padding:12px 20px;
+    }
+    .navigation a{
+        padding-left:10px;
+    }
+    .tittle{
+        font: size 1.8em;
+    }
+    section{
+        padding:80px 20px
+    }
+    .main-content h2{
+        font-size:1em;
+    }
+    .main-content h3{
+        font-size:1.6em;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
 }
