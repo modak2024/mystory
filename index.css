@@ -24,7 +24,7 @@ margin-left: 340px ;
 
 #p2{color: green;
     font-size:60px;}
-#p1{color: rgb(49, 2, 158);
+#p1{color: #FFD700;
     background-color: rgba(115, 218, 89, 0.89);
     font-size:60px;
     text-decoration:none;
@@ -47,7 +47,7 @@ margin-left: 340px ;
     transform: scale(1.1 );
     
 }
-#p2{color: rgb(49, 2, 158);
+#p2{color: #FFD700;
     background-color: rgba(115, 218, 89, 0.89);
     font-size:60px;
     text-decoration:none;
